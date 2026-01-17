@@ -1,0 +1,3 @@
+{"task": "summarization", "prediction": "A cat sat on a mat.", "target": "A cat sat on a mat."}
+{"task": "classification", "prediction": "positive", "target": "positive"}
+{"task": "extraction", "prediction": "{\"order_id\": 42, \"customer\": \"Ada Lovelace\"}", "target": "{\"order_id\": 42, \"customer\": \"Ada Lovelace\"}"}

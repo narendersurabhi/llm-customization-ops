@@ -1,0 +1,3 @@
+{"instruction": "Summarize", "input": "The cat sat on the mat.", "output": "A cat sat on a mat."}
+{"instruction": "Classify sentiment", "input": "I love this product", "output": "positive"}
+{"instruction": "Extract", "input": "Order 42 shipped to Ada Lovelace", "output": "{\"order_id\": 42, \"customer\": \"Ada Lovelace\"}"}
