@@ -1,0 +1,14 @@
+{
+  "summarization": {
+    "version": "v1",
+    "template": "Summarize the following text in one sentence:\n{text}"
+  },
+  "classification": {
+    "version": "v1",
+    "template": "Classify the sentiment of the text as positive, negative, or neutral:\n{text}"
+  },
+  "extraction": {
+    "version": "v1",
+    "template": "Extract structured JSON with keys order_id and customer from the text:\n{text}\nReturn JSON only."
+  }
+}

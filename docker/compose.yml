@@ -1,0 +1,13 @@
+services:
+  llm-service:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.serve
+    ports:
+      - "8000:8000"
+  prometheus:
+    image: prom/prometheus:v2.52.0
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"

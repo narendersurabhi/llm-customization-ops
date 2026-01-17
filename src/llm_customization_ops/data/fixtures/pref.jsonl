@@ -1,0 +1,2 @@
+{"prompt": "Summarize: The cat sat on the mat.", "chosen": "A cat sat on a mat.", "rejected": "The mat sat on a cat."}
+{"prompt": "Classify sentiment: I love this product", "chosen": "positive", "rejected": "negative"}

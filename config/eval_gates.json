@@ -1,0 +1,5 @@
+{
+  "summarization": {"rouge_like": 0.5},
+  "classification": {"accuracy": 0.8},
+  "extraction": {"exact_match": 0.8}
+}
